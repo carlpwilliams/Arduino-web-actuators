@@ -13,14 +13,14 @@ const int relay3 = 12;
 const int relay4 = 13;
 
 const int relayPairs[2][2] = {{4, 14}, {12, 13}};
-const String relayPairMonikers[2] = {"Bar", "TV"};
+const String relayPairMonikers[2] = {"RelayPair1", "RelayPair2"};
 const String ActionCommandsOn[] = {"open", "on", "extend"};
 const String ActionCommandsOff[] = {"close", "off", "retract"};
 
 ESP8266WebServer server(80);
 
 void handleRoot() {
-  server.send(200, "text/plain", "Barduino 2.0!");
+  server.send(200, "text/plain", "Wemos Relay web server!");
 }
 
 void handleNotFound() {
