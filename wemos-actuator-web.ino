@@ -3,8 +3,8 @@
 #include <ESP8266WebServer.h>
 #include <ESP8266mDNS.h>
 
-const char* ssid = "lordliams";
-const char* password = "Sweetpea123";
+const char* ssid = "....";
+const char* password = "....";
 
 // pins do not match the arduino on the wemos. these pins are essentially 4,5,6,7.
 const int relay1 = 4;
